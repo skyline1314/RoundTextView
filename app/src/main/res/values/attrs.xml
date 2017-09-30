@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundTextView">
+        <attr name="border_widht" format="dimension" />
+        <attr name="normal_border_color" format="color" />
+        <attr name="press_border_color" format="color" />
+        <attr name="press_text_color" format="color" />
+        <attr name="press_backgroud" format="color" />
+        <attr name="radius" format="dimension" />
+        <attr name="left_top_radiu" format="dimension" />
+        <attr name="left_bottom_radiu" format="dimension" />
+        <attr name="right_top_radiu" format="dimension" />
+        <attr name="right_bottom_radiu" format="dimension" />
+    </declare-styleable>
+</resources>

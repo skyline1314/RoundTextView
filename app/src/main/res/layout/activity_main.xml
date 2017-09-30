@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.skyline.roundedittext.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.skyline.roundedittext.custom.RoundTextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="Hello World!"
+                android:textSize="12dp"
+                android:textColor="#4385f5"
+                app:border_widht="1dp"
+                app:normal_border_color="#eeeeee"
+                app:press_backgroud="#eeeeee"
+                app:press_border_color="#f00"
+                app:press_text_color="#f00"
+                app:radius="20dp" />
+
+            <com.skyline.roundedittext.custom.RoundTextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#f5f5f5"
+                android:gravity="center"
+                android:text="Hello World!"
+                android:textSize="12dp"
+                app:border_widht="1dp"
+                app:left_top_radiu="20dp"
+                app:normal_border_color="#eeeeee"
+                app:press_backgroud="#eeeeee"
+                app:press_border_color="#f00"
+                app:press_text_color="#f00" />
+
+            <com.skyline.roundedittext.custom.RoundTextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#f5f5f5"
+                android:gravity="center"
+                android:text="Hello World!"
+                android:textSize="12dp"
+                app:border_widht="1dp"
+                app:normal_border_color="#eeeeee"
+                app:press_backgroud="#eeeeee"
+                app:press_border_color="#f00"
+                app:press_text_color="#f00"
+                app:right_top_radiu="20dp" />
+
+            <com.skyline.roundedittext.custom.RoundTextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#f5f5f5"
+                android:gravity="center"
+                android:text="Hello World!"
+                android:textSize="12dp"
+                app:border_widht="1dp"
+                app:left_bottom_radiu="20dp"
+                app:normal_border_color="#eeeeee"
+                app:press_backgroud="#eeeeee"
+                app:press_border_color="#f00"
+                app:press_text_color="#f00" />
+
+            <com.skyline.roundedittext.custom.RoundTextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#f5f5f5"
+                android:gravity="center"
+                android:text="Hello World!"
+                android:textSize="12dp"
+                app:border_widht="1dp"
+                app:normal_border_color="#eeeeee"
+                app:press_backgroud="#eeeeee"
+                app:press_border_color="#f00"
+                app:press_text_color="#f00"
+                app:right_bottom_radiu="20dp" />
+
+            <com.skyline.roundedittext.custom.RoundTextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#f5f5f5"
+                android:gravity="center"
+                android:text="Hello World!"
+                android:textSize="12dp"
+                app:border_widht="1dp"
+                app:normal_border_color="#eeeeee"
+                app:press_border_color="#f00"
+                app:press_text_color="#f00" />
+
+            <com.skyline.roundedittext.custom.RoundTextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#f5f5f5"
+                android:gravity="center"
+                android:text="Hello World!"
+                android:textSize="12dp"
+                app:border_widht="1dp"
+                app:normal_border_color="#eeeeee"
+                app:press_border_color="#f00" />
+
+            <com.skyline.roundedittext.custom.RoundTextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#f5f5f5"
+                android:gravity="center"
+                android:text="Hello World!"
+                android:textSize="12dp"
+                app:border_widht="1dp"
+                app:normal_border_color="#eeeeee"
+               />
+
+            <com.skyline.roundedittext.custom.RoundTextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#f5f5f5"
+                android:gravity="center"
+                android:text="Hello World!"
+                android:textSize="12dp"
+                app:border_widht="1dp"
+                app:normal_border_color="#eeeeee"
+                app:radius="20dp"
+               />
+
+            <com.skyline.roundedittext.custom.RoundTextView
+                android:id="@+id/set_attr_view"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#4385f5"
+                android:gravity="center"
+                android:text="Hello World!"
+                android:textSize="12dp"
+                android:textColor="#fff"
+               />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
