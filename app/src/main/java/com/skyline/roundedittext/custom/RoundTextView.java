@@ -124,7 +124,7 @@ public class RoundTextView extends TextView {
         return true;
     }
 
-
+        
     //是否设置有按压属性
     private boolean bPressAttr() {
         if (press_text_color != 0 || press_backgroud != 0 || press_border_color != 0) {
