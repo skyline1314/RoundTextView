@@ -1,7 +1,7 @@
 # RoundTextView
 支持圆角、按压效果、边框大小颜色、每次再也不用写资源文件了，由于截图原因，边框不太明显
 
-![效果截图](http://27.155.122.192:8080/uploads/gif/20170930/1506742433737.gif)
+![效果截图](https://github.com/skyline1314/RoundTextView/blob/master/screen/1506742433737.gif)
 
 ## 使用 ##
     `         <com.skyline.roundedittext.custom.RoundTextView
