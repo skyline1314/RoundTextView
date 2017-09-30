@@ -9,13 +9,14 @@ import android.graphics.drawable.GradientDrawable;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.skyline.roundedittext.R;
 
 /**
  * Created by skyline on 2017/9/29.
  */
-public class RoundTextView extends Button {
+public class RoundTextView extends TextView {
 
     private int border_width;
     private int border_color;
@@ -120,8 +121,9 @@ public class RoundTextView extends Button {
             isPress = true;
         }
         setDrawable();
-        return super.onTouchEvent(event);
+        return true;
     }
+
 
     //是否设置有按压属性
     private boolean bPressAttr() {
